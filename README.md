@@ -42,7 +42,7 @@ Use Github to create a new Github repo and sync the local git repo you created i
 
 3. Go to the associated Github page and click the alert to intitiate a Pull Request to pull the changes from `dev` into `main`
 
-4. Once completed, use `git push` to sync your local with the remote
+4. Now that you have merged the pull request, the `main` branch on the origin (Github) has changes the `main` branch on your local git repo (on your computer) does not. Checkout the main branch and run `git pull` to get the most recent changes on `main` from Githb.
 
 ### Part 4: Bonus
 
